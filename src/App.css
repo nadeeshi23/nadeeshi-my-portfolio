@@ -632,103 +632,9 @@
    ---------------------------------------------------------- */
 .about-grid {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 36px;
-  align-items: start;
-}
-
-.about-profile-col {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.about-narrative-col {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.about-photo-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-lg);
-  padding: 24px;
-  box-shadow: var(--shadow-md);
-  position: relative;
-  overflow: hidden;
-  transition: all var(--transition-smooth);
-}
-
-.about-photo-card:hover {
-  border-color: var(--border-emerald);
-  box-shadow: 0 12px 32px -8px rgba(16, 185, 129, 0.22);
-}
-
-.about-photo-frame {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  max-height: 340px;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 1px solid var(--border-emerald);
-  background: var(--bg-secondary);
-}
-
-.about-profile-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
-  transition: transform var(--transition-smooth);
-}
-
-.about-photo-card:hover .about-profile-img {
-  transform: scale(1.03);
-}
-
-.about-photo-badge {
-  position: absolute;
-  bottom: 12px;
-  left: 12px;
-  right: 12px;
-  background: rgba(10, 15, 29, 0.88);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid var(--border-emerald);
-  border-radius: var(--radius-pill);
-  padding: 8px 14px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--emerald-light);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-}
-
-.about-photo-info {
-  margin-top: 18px;
-}
-
-.about-photo-name {
-  font-size: 1.28rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  margin-bottom: 4px;
-}
-
-.about-photo-title {
-  font-size: 0.92rem;
-  color: var(--emerald-light);
-  font-weight: 600;
-  margin-bottom: 2px;
-}
-
-.about-photo-sub {
-  font-size: 0.84rem;
-  color: var(--text-muted);
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 32px;
+  align-items: stretch;
 }
 
 .about-narrative-card {
@@ -872,31 +778,41 @@
 .strengths-box {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
-  padding: 22px;
+  border-radius: var(--radius-lg);
+  padding: 34px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all var(--transition-smooth);
+}
+
+.strengths-box:hover {
+  border-color: var(--border-emerald);
+  box-shadow: var(--shadow-md);
 }
 
 .strengths-title {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: var(--text-primary);
-  margin-bottom: 14px;
+  margin-bottom: 22px;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   font-weight: 700;
 }
 
 .strengths-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
 }
 
 .strength-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.9rem;
+  gap: 12px;
+  font-size: 0.94rem;
   color: var(--text-secondary);
+  line-height: 1.5;
 }
 
 @media (max-width: 868px) {

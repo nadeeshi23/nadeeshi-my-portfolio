@@ -1,5 +1,5 @@
 import lkAgroMarketImg from '../assets/lk-agro-market.jpg';
-import avatarImg from '../assets/developer-avatar.jpg';
+import avatarImg from '../assets/nadeeshi.png';
 
 export const personalInfo = {
   name: "Nadeeshi Jayaweera",

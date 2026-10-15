@@ -1,4 +1,3 @@
-import lkAgroMarketImg from '../assets/lk-agro-market.jpg';
 import avatarImg from '../assets/nadeeshi.png';
 
 export const personalInfo = {
@@ -115,27 +114,6 @@ export const educationData = [
 
 export const projectsData = [
   {
-    id: "lk-agro-market",
-    title: "LK Agro Market",
-    subtitle: "Web-Based Agricultural Marketplace",
-    featured: true,
-    category: "University Group Project",
-    image: lkAgroMarketImg,
-    description: "A comprehensive web-based agricultural marketplace developed as a university group project at Uva Wellassa University. LK Agro Market directly bridges local Sri Lankan farmers, wholesale purchasers, and consumers—eliminating unnecessary middleman costs, promoting fair market pricing, and enabling streamlined crop inventory distribution.",
-    highlights: [
-      "Direct farmer-to-consumer and wholesale marketplace trading model",
-      "Dynamic product catalog and category filters for seasonal vegetables, grains, and fruits",
-      "Role-based portals for farmers, buyers, and platform administrators",
-      "Normalized MySQL database schema handling crops, pricing updates, orders, and user sessions",
-      "Responsive React interface integrated with modular PHP REST backend endpoints"
-    ],
-    technologies: ["React", "PHP", "MySQL", "JavaScript", "REST API", "CSS3", "Git"],
-    githubUrl: "https://github.com/nadeeshi23/lk-agro-market", // Placeholder / repo link
-    hasLiveDemo: false,
-    demoUrl: "#",
-    isUnderDevelopment: false
-  },
-  {
     id: "personal-portfolio",
     title: "Modern Developer Portfolio",
     subtitle: "Personal Web Portfolio",
@@ -156,41 +134,45 @@ export const projectsData = [
     isUnderDevelopment: false
   },
   {
-    id: "student-record-system",
-    title: "Student & Course Management System",
-    subtitle: "Academic Database System",
+    id: "fitzone-gym-management",
+    title: "FITZONE - Gym Management System",
+    subtitle: "Web-Based Gym Management System",
     featured: false,
-    category: "Academic Project",
+    category: "University Project",
     image: null,
-    description: "A secure web portal engineered for university departments to administer student enrollments, course offerings, and semester grade records with relational database integrity.",
+    description: "A comprehensive web-based gym management system developed as a university project to modernize gym operations through a centralized digital platform. The system streamlines member management, trainer coordination, front-desk check-ins, and financial reporting—reducing manual work and improving operational efficiency.",
     highlights: [
-      "Role-based access for lecturers and administrative personnel",
-      "Relational schema with foreign key constraints, triggers, and sanitized queries",
-      "Automated GPA calculation and downloadable student academic summaries"
+      "Centralized management of gym members, trainers, and administrators",
+      "Digital front-desk check-in and attendance tracking",
+      "Member and trainer management with role-based access",
+      "Financial reports for monitoring gym revenue and transactions",
+      "Responsive React interface integrated with a PHP backend and database"
     ],
-    technologies: ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript"],
-    githubUrl: "#", // Placeholder
+    technologies: ["React", "PHP", "MySQL", "SQLite", "JavaScript", "REST API", "CSS3", "Git"],
+    githubUrl: "https://github.com/nadeeshi23/fitzone-gym-management", // Update with your repository URL
     hasLiveDemo: false,
     demoUrl: "#",
-    isUnderDevelopment: true
+    isUnderDevelopment: false
   },
   {
-    id: "task-algorithm-tracker",
-    title: "Algorithm & Task Workflow Planner",
-    subtitle: "Utility & Data Structures Project",
+    id: "lk-agro-market",
+    title: "LK Agro Market",
+    subtitle: "Web-Based Agricultural Marketplace",
     featured: false,
-    category: "Academic / Personal",
+    category: "University Group Project",
     image: null,
-    description: "An interactive web utility designed to model priority task queues and visualize sorting & scheduling algorithms with real-time state transitions.",
+    description: "A comprehensive web-based agricultural marketplace developed as a university group project at Uva Wellassa University. LK Agro Market directly bridges local Sri Lankan farmers, wholesale purchasers, and consumers—eliminating unnecessary middleman costs, promoting fair market pricing, and enabling streamlined crop inventory distribution.",
     highlights: [
-      "Custom state management for scheduling simulations",
-      "Dynamic visual representations of priority queues and graph traversal",
-      "Clean modular code illustrating data structure operations"
+      "Direct farmer-to-consumer and wholesale marketplace trading model",
+      "Dynamic product catalog and category filters for seasonal vegetables, grains, and fruits",
+      "Role-based portals for farmers, buyers, and platform administrators",
+      "Normalized MySQL database schema handling crops, pricing updates, orders, and user sessions",
+      "Responsive React interface integrated with modular PHP REST backend endpoints"
     ],
-    technologies: ["React", "JavaScript", "Data Structures", "CSS Grid"],
-    githubUrl: "#", // Placeholder
+    technologies: ["React", "PHP", "MySQL", "JavaScript", "REST API", "CSS3", "Git"],
+    githubUrl: "https://github.com/nadeeshi23/lk-agro-market",
     hasLiveDemo: false,
     demoUrl: "#",
-    isUnderDevelopment: true
+    isUnderDevelopment: false
   }
 ];

@@ -1,6 +1,4 @@
 import { 
-  IconGithub, 
-  IconLinkedin, 
   IconMail, 
   IconCV, 
   IconArrowRight, 
@@ -60,43 +58,6 @@ export const Hero = ({ personalInfo, onOpenCV }) => {
               <IconCV size={18} />
               <span>Curriculum Vitae</span>
             </button>
-          </div>
-
-          {/* Social Links Row */}
-          <div className="hero-socials">
-            <span className="socials-label">Connect:</span>
-            <div className="social-links-wrap">
-              <a
-                href={personalInfo.socialLinks.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-pill"
-                aria-label="GitHub Profile"
-              >
-                <IconGithub size={18} />
-                <span>GitHub</span>
-              </a>
-
-              <a
-                href={personalInfo.socialLinks.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-pill"
-                aria-label="LinkedIn Profile (Placeholder)"
-              >
-                <IconLinkedin size={18} />
-                <span>LinkedIn</span>
-              </a>
-
-              <a
-                href={`mailto:${personalInfo.socialLinks.email}`}
-                className="social-pill"
-                aria-label="Direct Email"
-              >
-                <IconMail size={18} />
-                <span>Email</span>
-              </a>
-            </div>
           </div>
         </div>
 

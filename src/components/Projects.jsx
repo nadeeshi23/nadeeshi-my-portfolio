@@ -11,7 +11,7 @@ export const Projects = ({ projectsData }) => {
   const filteredOtherProjects = otherProjects.filter((project) => {
     if (filter === 'all') return true;
     if (filter === 'web') return project.technologies.includes('React') || project.technologies.includes('PHP');
-    if (filter === 'academic') return project.category.includes('Academic');
+    if (filter === 'academic') return project.category.includes('Academic') || project.category.includes('University');
     return true;
   });
 
@@ -43,7 +43,9 @@ export const Projects = ({ projectsData }) => {
 
       {/* Filter Tabs for Other Projects */}
       <div className="projects-filter-bar">
-        <h3 className="other-projects-heading">Additional Academic & Personal Projects</h3>
+        <h3 className="other-projects-heading">
+          {featuredProject ? 'Additional Academic & Personal Projects' : 'Projects Showcase'}
+        </h3>
         <div className="filter-buttons">
           <button
             className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
@@ -61,7 +63,7 @@ export const Projects = ({ projectsData }) => {
             className={`filter-btn ${filter === 'academic' ? 'active' : ''}`}
             onClick={() => setFilter('academic')}
           >
-            Academic Systems
+            Academic & University
           </button>
         </div>
       </div>

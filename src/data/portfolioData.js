@@ -6,12 +6,13 @@ export const personalInfo = {
   university: "Uva Wellassa University, Sri Lanka",
   degree: "B.Sc. (Hons) in Computer Science and Technology",
   targetRole: "Software Development Internship",
-  status: "Available for Internship (2025/2026)",
+  status: "Available for Internship (2026/2027)",
   location: "Sri Lanka",
   bio: "Computer Science and Technology undergraduate at Uva Wellassa University with a passion for building full-stack web applications, scalable backends, and responsive user experiences. Experienced in React, PHP, MySQL, and modern software engineering practices, seeking an impactful software development internship.",
   about: [
     "I am an enthusiastic Computer Science and Technology undergraduate at Uva Wellassa University, Sri Lanka, with a solid academic foundation in software engineering, database management, and object-oriented architecture.",
     "Driven by curiosity and a problem-solving mindset, I enjoy building end-to-end applications that solve tangible problems—ranging from agricultural trade networks to modern reactive web interfaces.",
+    "I am currently an active Design Team Member at the FOSS Community and have valuable experience working as a volunteer in IEEE projects, bringing strong creative design skills, UI/UX thinking, and collaborative teamwork.",
     "I am actively seeking a Software Development Internship where I can collaborate with talented engineering teams, contribute high-quality code, and continue expanding my practical skill set."
   ],
   avatar: avatarImg,
@@ -100,13 +101,13 @@ export const educationData = [
   },
   {
     institution: "G.C.E. Advanced Level",
-    degree: "Physical Science / Technology Stream",
+    degree: "Physical Science",
     period: "Completed",
     location: "Sri Lanka",
     status: "Foundation for University Entrance",
     description: "Built strong mathematical foundations, analytical reasoning, and logical problem-solving abilities preparing for a degree in Computer Science and Technology.",
     highlights: [
-      "Mathematics, Physics, and Information & Communication Technology",
+      "Mathematics, Physics, and Chemistry",
       "Qualified for university admission at Uva Wellassa University"
     ]
   }
@@ -138,7 +139,7 @@ export const projectsData = [
     title: "FITZONE - Gym Management System",
     subtitle: "Web-Based Gym Management System",
     featured: false,
-    category: "University Project",
+    category: "University Group Project",
     image: null,
     description: "A comprehensive web-based gym management system developed as a university project to modernize gym operations through a centralized digital platform. The system streamlines member management, trainer coordination, front-desk check-ins, and financial reporting—reducing manual work and improving operational efficiency.",
     highlights: [
@@ -149,7 +150,7 @@ export const projectsData = [
       "Responsive React interface integrated with a PHP backend and database"
     ],
     technologies: ["React", "PHP", "MySQL", "SQLite", "JavaScript", "REST API", "CSS3", "Git"],
-    githubUrl: "https://github.com/nadeeshi23/fitzone-gym-management", // Update with your repository URL
+    githubUrl: "https://github.com/Ashen1127mdx/Gym-Management-System.git", // Update with your repository URL
     hasLiveDemo: false,
     demoUrl: "#",
     isUnderDevelopment: false
@@ -170,7 +171,7 @@ export const projectsData = [
       "Responsive React interface integrated with modular PHP REST backend endpoints"
     ],
     technologies: ["React", "PHP", "MySQL", "JavaScript", "REST API", "CSS3", "Git"],
-    githubUrl: "https://github.com/nadeeshi23/lk-agro-market",
+    githubUrl: "https://github.com/DamithPrashan/LK_Agro_Market.git",
     hasLiveDemo: false,
     demoUrl: "#",
     isUnderDevelopment: false

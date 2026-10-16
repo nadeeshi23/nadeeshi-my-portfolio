@@ -1,5 +1,6 @@
 import { 
-  IconCheckCircle 
+  IconCheckCircle,
+  IconSparkles 
 } from './Icons';
 import girlImg from '../assets/girl.jpg';
 
@@ -46,6 +47,42 @@ export const About = () => {
               Through practical group endeavors like <strong>LK Agro Market</strong>, I have engaged in end-to-end development sprints—translating agricultural workflow challenges into functional database schemas, PHP backends, and responsive React user interfaces.
             </p>
 
+            <p className="narrative-text">
+              Beyond software engineering, I am currently a <strong>Design Team Member at the FOSS Community</strong> and have valuable experience working as a <strong>volunteer in IEEE projects</strong>. These roles have strengthened my creative design thinking, UI/UX aesthetics, and collaborative teamwork skills across community-driven initiatives.
+            </p>
+
+            {/* Community & Volunteer Experience Cards */}
+            <div className="about-community-box">
+              <h4 className="strengths-title">Community & Volunteer Involvement</h4>
+              <div className="community-cards-grid">
+                <div className="community-card">
+                  <div className="community-card-icon emerald">
+                    <IconSparkles size={18} />
+                  </div>
+                  <div className="community-card-body">
+                    <h5 className="community-role">Design Team Member</h5>
+                    <span className="community-org">FOSS Community</span>
+                    <p className="community-desc">
+                      Contributing creative design assets, UI concepts, and community visual branding.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="community-card">
+                  <div className="community-card-icon mint">
+                    <IconCheckCircle size={18} />
+                  </div>
+                  <div className="community-card-body">
+                    <h5 className="community-role">Project Volunteer</h5>
+                    <span className="community-org">IEEE Projects</span>
+                    <p className="community-desc">
+                      Actively contributing to project execution, team coordination, and student branch activities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Core Strengths & Values */}
             <div className="strengths-box-inline">
               <h4 className="strengths-title">Core Strengths & Values</h4>
@@ -56,11 +93,11 @@ export const About = () => {
                 </div>
                 <div className="strength-item">
                   <IconCheckCircle size={18} className="text-emerald" />
-                  <span>Quick learner with strong algorithmic aptitude</span>
+                  <span>Creative UI/UX design & visual communication</span>
                 </div>
                 <div className="strength-item">
                   <IconCheckCircle size={18} className="text-emerald" />
-                  <span>Collaborative team player (group project tested)</span>
+                  <span>Collaborative team player (group & community tested)</span>
                 </div>
                 <div className="strength-item">
                   <IconCheckCircle size={18} className="text-emerald" />

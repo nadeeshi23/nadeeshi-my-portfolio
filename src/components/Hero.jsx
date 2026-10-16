@@ -2,8 +2,6 @@ import {
   IconMail, 
   IconCV, 
   IconArrowRight, 
-  IconSparkles, 
-  IconCode, 
   IconGraduationCap 
 } from './Icons';
 
@@ -22,7 +20,7 @@ export const Hero = ({ personalInfo, onOpenCV }) => {
               <span className="status-text">{personalInfo.status}</span>
             </div>
             <div className="uni-badge-pill">
-              <IconGraduationCap size={14} />
+              <IconGraduationCap size={15} />
               <span>Uva Wellassa University</span>
             </div>
           </div>
@@ -41,27 +39,9 @@ export const Hero = ({ personalInfo, onOpenCV }) => {
             Undergraduate at <strong>Uva Wellassa University, Sri Lanka</strong>, actively seeking a{' '}
             <span className="highlight-text">Software Development Internship</span>. Passionate about crafting responsive web applications, robust backends, and modular architectures using <strong>React, PHP, and MySQL</strong>.
           </p>
-
-          {/* Action Buttons */}
-          <div className="hero-cta-group">
-            <a href="#projects" className="btn btn-primary hero-btn">
-              <span>View Projects</span>
-              <IconArrowRight size={18} />
-            </a>
-
-            <a href="#contact" className="btn btn-secondary hero-btn">
-              <span>Contact Me</span>
-              <IconMail size={18} />
-            </a>
-
-            <button onClick={onOpenCV} className="btn btn-outline-emerald hero-btn">
-              <IconCV size={18} />
-              <span>Curriculum Vitae</span>
-            </button>
-          </div>
         </div>
 
-        {/* Right: Modern Visual Card with Glowing Profile & Floating Badges */}
+        {/* Right: Modern Visual Card with Glowing Profile Frame */}
         <div className="hero-visual">
           <div className="hero-card-wrapper">
             <div className="hero-avatar-frame">
@@ -72,40 +52,25 @@ export const Hero = ({ personalInfo, onOpenCV }) => {
               />
               <div className="avatar-overlay-gradient"></div>
             </div>
-
-            {/* Floating Tech Card 1 */}
-            <div className="floating-badge badge-top-right">
-              <div className="badge-icon-wrap emerald">
-                <IconSparkles size={16} />
-              </div>
-              <div>
-                <span className="badge-label">Featured Project</span>
-                <span className="badge-value">LK Agro Market</span>
-              </div>
-            </div>
-
-            {/* Floating Tech Card 2 */}
-            <div className="floating-badge badge-bottom-left">
-              <div className="badge-icon-wrap mint">
-                <IconCode size={16} />
-              </div>
-              <div>
-                <span className="badge-label">Core Stack</span>
-                <span className="badge-value">React • PHP • MySQL</span>
-              </div>
-            </div>
-
-            {/* Floating University Pill */}
-            <div className="floating-badge badge-bottom-right">
-              <div className="badge-icon-wrap dark">
-                <IconGraduationCap size={16} />
-              </div>
-              <div>
-                <span className="badge-label">Institution</span>
-                <span className="badge-value">UWU, Sri Lanka</span>
-              </div>
-            </div>
           </div>
+        </div>
+
+        {/* Centered Action Buttons below both text and photo */}
+        <div className="hero-cta-group">
+          <a href="#projects" className="btn btn-primary hero-btn">
+            <span>View Projects</span>
+            <IconArrowRight size={18} />
+          </a>
+
+          <a href="#contact" className="btn btn-secondary hero-btn">
+            <span>Contact Me</span>
+            <IconMail size={18} />
+          </a>
+
+          <button onClick={onOpenCV} className="btn btn-outline-emerald hero-btn">
+            <IconCV size={18} />
+            <span>Curriculum Vitae</span>
+          </button>
         </div>
       </div>
     </section>

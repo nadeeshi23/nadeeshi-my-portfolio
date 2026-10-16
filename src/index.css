@@ -19,10 +19,10 @@
   --emerald-badge-border: rgba(52, 211, 153, 0.25);
 
   /* Typography Colors */
-  --text-primary: #f0fdf4;
+  --text-primary: #ffffff;
   --text-secondary: #94a3b8;
   --text-muted: #64748b;
-  --text-highlight: #a7f3d0;
+  --text-highlight: #6ee7b7;
 
   /* Borders & Dividers */
   --border-subtle: rgba(255, 255, 255, 0.08);
@@ -30,7 +30,7 @@
   --border-emerald-focus: rgba(52, 211, 153, 0.5);
 
   /* Typography Stacks */
-  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
   /* Elevation & Shadows */
@@ -143,18 +143,18 @@ button, input, textarea {
 
 /* Text Gradients & Highlights */
 .text-gradient-emerald {
-  background: linear-gradient(135deg, #34d399 0%, #10b981 50%, #059669 100%);
+  background: linear-gradient(135deg, #6ee7b7 0%, #34d399 50%, #10b981 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
+  display: inline;
 }
 
 .text-emerald {
-  color: var(--emerald-light) !important;
+  color: var(--emerald-primary) !important;
 }
 
 .highlight-text {
-  color: var(--emerald-light);
+  color: var(--text-highlight);
   font-weight: 600;
 }
 

@@ -44,7 +44,7 @@ export const About = () => {
             </p>
 
             <p className="narrative-text">
-              Through practical group endeavors like <strong>LK Agro Market</strong>, I have engaged in end-to-end development sprints—translating agricultural workflow challenges into functional database schemas, PHP backends, and responsive React user interfaces.
+              Through practical group endeavors like <strong>LK Agro Market</strong> and the <strong>FITZONE Gym Management System</strong>, I have engaged in end-to-end development sprints—translating real-world workflow challenges into functional database schemas, PHP backends, and responsive React user interfaces.
             </p>
 
             <p className="narrative-text">

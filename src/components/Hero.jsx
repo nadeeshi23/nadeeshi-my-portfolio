@@ -32,7 +32,7 @@ export const Hero = ({ personalInfo, onOpenCV }) => {
           <h2 className="hero-subtitle">
             <span className="hero-role">{personalInfo.role}</span>
             <span className="hero-divider">/</span>
-            <span className="hero-stream">Computer Science & Technology Undergrad</span>
+            <span className="hero-stream">Computer Science & Technology Undergraduate</span>
           </h2>
 
           <p className="hero-description">

@@ -95,7 +95,7 @@ export const educationData = [
     description: "Rigorous academic curriculum emphasizing software engineering fundamentals, algorithmic thinking, database systems, web development, and collaborative team projects.",
     highlights: [
       "Key Modules: Data Structures & Algorithms, Object-Oriented Programming, Database Systems, Web Application Development, Software Engineering.",
-      "Hands-on group software engineering projects including LK Agro Market.",
+      "Hands-on group software engineering projects including LK Agro Market and FITZONE Gym Management System.",
       "Active engagement in coding assignments, peer reviews, and academic seminars."
     ]
   },
